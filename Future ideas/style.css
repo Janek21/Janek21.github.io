@@ -1,0 +1,40 @@
+body {
+  background-color: darkgreen;
+  color:white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+body h1 {
+  color: orange;
+}
+a {
+  color: black;
+}
+p {
+  margin-bottom: 10px;
+}
+
+.purple-box {
+    width: 15%;
+    height: 100vh;
+    background-color: purple;
+}
+
+.content {
+    width: 85%;
+    padding: 20px;
+}
+
+/*
+.content p {
+    margin-bottom: 20px;
+}
+
+.content h1,
+.content h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+*/
