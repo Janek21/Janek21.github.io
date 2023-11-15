@@ -6,11 +6,11 @@ body {
 }
 body h1 {
   color: orange;
+  margin-right: 16%;
 }
 a {
   color: black;
 }
 p {
   margin-bottom: 10px;
-  margin-right: 16%;
 }
