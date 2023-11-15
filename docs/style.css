@@ -2,6 +2,7 @@ body {
     padding: 0;
     background-color: darkgreen;
     color: white;
+    margin-right: 16%;
     overflow: hidden;*
 }
 body h1 {
