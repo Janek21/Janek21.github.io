@@ -14,3 +14,29 @@ a {
 p {
   margin-bottom: 10px;
 }
+.purple-window {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15%;
+    height: 50%;
+    top: 45%;
+    transform: translateY(-55%);
+    background-color: gray;
+    display: flex;
+    align-items: top;
+    justify-content: left;
+}
+
+.headertekst {
+width: 100%
+display: inline-block;
+overflow: hidden;
+text-align: center;
+justify-content: left;
+}
+
+.purple-window h2 {
+    justify-content: center; /* Center the text horizontally */
+    margin: 0; /* Remove default margin */
+}
