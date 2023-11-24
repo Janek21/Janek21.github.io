@@ -1,16 +1,31 @@
 body {
+  /*
     padding: 0;
     background-color: darkgreen;
     color: white;
-    margin-right: 16%;
+    */
+    background: #21421e;
+    color: black;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 300;
+    font-size: 14pt;
+    min-width: 60em;
+    margin-right: 15%;
     overflow: hidden;
 }
 body h1 {
-    color: orange;
+    color: #e69500;
+    font-family: "Source Code Pro", monospace;
+    text-decoration: underline;
+    outline: 0;
+}
+a:hover, a:focus {
+  color: gray;
 }
 a {
     color: black;
 }
+
 p {
     margin-bottom: 10px;
 }
@@ -37,11 +52,17 @@ p {
 }
 
 .purple-window h2 {
+    color: white;
     text-align: center;
     margin: 0;
 }
 
 .purple-window p {
+    color: white;
     text-align: left;
     margin: 5px 0; /* Adjust paragraph margins */
+}
+
+.purple-window a:hover, .purple-window a:focus {
+  color: darkgray;
 }
