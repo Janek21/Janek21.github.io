@@ -29,6 +29,17 @@ a {
 p {
     margin-bottom: 10px;
 }
+article em {
+  color: #ffffff;
+  font-style: normal;
+  text-shadow: 0 0 5px #ffffff;
+}
+/*
+article em.star {
+  color: #ffff66;
+  font-style: normal;
+  text-shadow: 0 0 5px #ffff66;
+}*/
 .purple-window {
     position: absolute;
     top: 0;
