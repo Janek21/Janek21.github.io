@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Yes counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1> This counts YES in Database </h1>
+    <p>Use the buttons</p>
+    <script type="text/javascript">
+
+    var clicks = 0;
+    function add_click() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+    function reset(){
+      clicks=0;
+      document.getElementById("clicks").innerHTML = clicks;
+    };
+    </script>
+    <button type="button" onclick="add_click()">+Yes</button>
+    <button type="button" onclick="reset()">Set clicks to 0</button>
+    <p>Times YES is said: <a id="clicks">0</a></p>
+
+</body></html>
